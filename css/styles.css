@@ -1,5 +1,6 @@
 body {
-	background: rgba(133, 135, 141, 0.7);
+	/* background: rgba(133, 135, 141, 0.7); */
+	background: rgb(0,0,33);
 	font-family: 'PT Serif', serif;
 	font-size: 20px;
 	font-weight: 500;
@@ -8,11 +9,12 @@ body {
 .LBlock img{
 	height: 320px;
 	width: 320px;
-	border: 5px solid white;
+	border: 2px solid #009933
 }
 
 .LBlock {
 	margin-top: 90px;
+	
 }
 
 .RBlock {
@@ -23,7 +25,7 @@ body {
 }
 
 .RBlock p{
-	color: #337ab7;
+	color: #ffcc00;
 }
 
 .bulletrow {
@@ -37,16 +39,19 @@ body {
 h1 {
 	font-family: 'Abril Fatface', serif;
 	font-size: 66px;
-	
+	color: white;
 	margin-top: 20px;
 }
 
 h3 {
 	font-family: 'Abril Fatface', serif;
 	font-size: 28px;
+	color: white;
 	margin-bottom: 32px;
 	
 }
+
+
 
 
 
@@ -63,6 +68,7 @@ h3 {
     font-weight: normal;
     font-style: normal;
     text-transform: initial;
+   
 }
 
 .social-icon-row button {
@@ -71,25 +77,10 @@ h3 {
 	margin-right: 8px;
 	margin-left: 8px;
 	border-radius: 8px;
+	
 }
 
-.socicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'socicon';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  font-size: 30px;
-  margin-left: 0px;
-  text-decoration: none;
-}
 
-.socicon:empty{
-    width: 1em;
-}
 
 .socicon-twitter:before { content: "a"; }
 .socicon-facebook:before { content: "b"; }
@@ -185,6 +176,27 @@ h3 {
 .socicon-angellist:before { content: "€"; }
 .socicon-periscope:before { content: "0"; }
 
-.nohover:hover {
+.socicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'socicon';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 30px;
+  margin-left: 0px;
+  text-decoration: none;
+  color: #009933;
+}
+
+
+
+.socicon:empty{
+    width: 1em;
+}
+
+.nohover, .nohover:hover, .nohover:active, .nohover:visited {
 	text-decoration: none;
 }
