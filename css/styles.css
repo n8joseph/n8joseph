@@ -48,7 +48,7 @@ h3 {
 	font-family: 'Abril Fatface', serif;
 	font-size: 28px;
 	color: white;
-	margin-bottom: 32px;
+	margin-bottom: 28px;
 	
 }
 
@@ -61,7 +61,31 @@ h3 {
 }
 
 
+.imgWrap {
+	display: inline;
+}
 
+.imgDescription {
+  position: absolute;
+  top: 580px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: visibility opacity 0.2s;
+  
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
 
 @font-face {
     font-family: 'socicon';
